@@ -257,6 +257,7 @@ footer {
     background-color: #ff8700;
     padding: 1rem;
     border-radius: 0.5rem;
+    margin-top: 5px;
 }
 
 a:hover {
@@ -361,6 +362,19 @@ h4 {
   @media (max-width: 638px) {
     .frame {
         margin: 4rem;
+    }
+    .container-1 {
+        flex-direction: column;
+    }
+    .lead-chapter{
+
+        align-items: center;
+
+    }
+    .lead-chapter p{
+
+        text-align: center;
+
     }
   }
   @media (max-width: 520px) {
