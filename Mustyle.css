@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-family: sans-serif;
+}
+  
+body {
+    margin: 0;
+}
+
+.logo {
+    margin: 1rem;
+}
+
+nav {
+    display: flex;    
+    justify-content: space-between;
+}
+
+.menu a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu .button {
+    margin-right: 1rem; 
+    margin-left: 1rem;
+    border: #ff8700;
+}
+
+.container-1 {
+    display: flex;
+    align-items: center;
+}
+
+.lead-chapter {
+    display: flex;
+    flex-direction: column;
+}
+
+.lead-chapter p {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+.lead-chapter button {
+    border: #ff8700;
+    width: 10rem;
+    margin-top: 1rem;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.container-2 h1 {
+    margin-bottom: 1rem;
+}
+
+.container-3 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.LVL {
+    display: flex;
+    align-items: center;
+}
+
+.lvlbox {
+    margin-top: 3rem;
+    border: 0.2rem solid;
+    height: fit-content;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.level0 {
+    border: 0.1rem solid;
+    border-radius: 0.8rem;
+    padding: 0.5rem;
+    width: fit-content;
+    margin-bottom: 0.6rem;
+}
+
+.find {
+    text-align: center;
+}
+
+.find p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.drop-container {
+    display: flex;
+    justify-content: center;
+}
+
+.drop {
+    margin: 1rem;
+
+}
+
+select {
+    width: fit-content;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: 4ch;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.b0 {
+    background-color: #ff8700;
+    border: 0.2rem solid;
+    border-radius: 1rem;
+    padding: 2rem;
+    width: fit-content;
+    max-width: 400px;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+.b0 h2 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.b0 p {
+    text-align: center;
+}
+
+.container-6 {
+    display: flex;
+    align-items: center;
+}
+
+.point-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.points {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.po {
+    width: 4rem;
+    height: 4rem;
+    background-color: #ff8700;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.no {
+    width: 1rem;
+    height: 1.5rem;
+    background-color: #ff8700;
+    border-radius: 50%;
+}
+
+.pt {
+    height: 4rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    color: #f0a856;
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.frame {
+    margin: 8rem;
+    flex-shrink: 0;
+}
+
+.container-7 {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logocreate {
+    border: 0.2rem solid;
+    border-radius: 1rem;
+    padding: 2rem; 
+    background-color: #ff8700;
+
+    width: fit-content;
+    margin: 1rem;
+
+}
+
+footer {
+    background-color: #444343;
+}
+
+.ftc {
+    flex-direction: column;
+    display: flex;
+    align-items: start;
+    width: 100%;
+    padding: 2rem;
+}
+
+.ftc img {
+    margin-bottom: 2rem;
+}
+
+.menu1 a {
+    margin-right: 2rem;
+    color: white;
+    margin-top: 4rem;
+    text-decoration: none;
+}
+
+.app img {
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.button {
+    color: white;
+    background-color: #ff8700;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+a:hover {
+    color: #ff8700;
+}
+
+.orange {
+    color: #ff8700;
+}
+
+.foot {
+    text-align: center;
+    color: white;
+    padding-top: 1em;
+    font-size: 1.5ch;
+}
+
+address {
+    color: white;
+}
+
+.wbutton {
+    background-color: white;
+    color: #ff8700;
+    border: #ff8700;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+
+.campus {
+    font-weight: bold;
+    font-size: 8vw;
+}
+
+p {
+    font-size: 1.3em;
+    margin-top: 0;
+    font-family: Calibri;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    font-size: 3vw;
+    padding-top: 0.2cm;
+}
+
+.header {
+    font-size: 2.5vw;
+    font-weight: 500;
+    margin-bottom: -3rem;
+    color: white;
+}
+
+.logocreate p {
+    color: white;
+}
+
+
+.lvl0{
+    width: 2500px;
+}
+
+.menu1 a{
+    margin-top: 5px;
+}
+
+@media (max-width: 1068px) {
+    .container-6 {
+        display: flex;
+        flex-direction: column;
+      
+    }
+  }
+
+  @media (max-width: 907px) {
+    .LVL {
+        flex-direction: column;
+        .lvl0{
+            width: 300px;
+        }
+    }
+  }
+
+  @media (max-width: 891px) {
+    .container-7 {
+        flex-direction: column;
+
+
+    }
+  }
+  @media (max-width: 700px) {
+    .header{
+        font-size: 25px;
+    }
+
+  }
+
+
+  @media (max-width: 638px) {
+    .frame {
+        margin: 4rem;
+    }
+  }
+  @media (max-width: 520px) {
+    select{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .level0 h4{
+        font-size: 20px;
+    }
+    .menu a{
+        font-size: 12px;
+    }
+    .frame {
+        margin: 0px;
+    }
+    .menu .button {
+        padding: 8px;
+    }
+  }
+
+
+  @media (max-width: 460px) {
+    .frame {
+        margin: 0px;
+    }
+    .app img {
+    margin-right: 1.5rem;
+}
+  }
